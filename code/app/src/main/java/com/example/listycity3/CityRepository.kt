@@ -17,5 +17,8 @@ class CityRepository {
         if (index != -1) {
             _cities[index] = updatedCity
         }
+        println(oldCity)
+        println(updatedCity)
+        println(_cities[index])
     }
 }
